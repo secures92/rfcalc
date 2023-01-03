@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RFCalc", "RFCalc\RFCalc.csproj", "{D2BD5A8B-1608-4AF8-BD5A-29F63F65F921}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rfclib", "rfclib\rfclib.csproj", "{245982D5-7044-4323-B1ED-9A0912BB16A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFCalc_WF", "RFCalc_WF\RFCalc_WF.csproj", "{30BFA814-01F8-40C7-988A-5DF853AC497C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RFCalc_WF", "RFCalc_WF\RFCalc_WF.csproj", "{30BFA814-01F8-40C7-988A-5DF853AC497C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{245982D5-7044-4323-B1ED-9A0912BB16A4} = {245982D5-7044-4323-B1ED-9A0912BB16A4}
 	EndProjectSection
@@ -18,10 +16,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D2BD5A8B-1608-4AF8-BD5A-29F63F65F921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2BD5A8B-1608-4AF8-BD5A-29F63F65F921}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2BD5A8B-1608-4AF8-BD5A-29F63F65F921}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2BD5A8B-1608-4AF8-BD5A-29F63F65F921}.Release|Any CPU.Build.0 = Release|Any CPU
 		{245982D5-7044-4323-B1ED-9A0912BB16A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{245982D5-7044-4323-B1ED-9A0912BB16A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{245982D5-7044-4323-B1ED-9A0912BB16A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
